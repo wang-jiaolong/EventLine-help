@@ -14,16 +14,14 @@ module.exports = {
     ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
     ['meta', { name: 'keywords', content: 'vuepress,theme,blog,vdoing' }],
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
-
-    ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
-    ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
+ 
   ],
 
   // 主题配置
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '案例', link: '/user/' },
+      { text: '案例', link: '/wall/a84e86/' },
       { text: 'iOS内测', link: 'https://testflight.apple.com/join/grxohdR3/' },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
@@ -57,8 +55,8 @@ module.exports = {
     // archive: false, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
 
     author: { // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
-      name: 'Evan Xu', // 必需
-      href: 'https://github.com/xugaoyi' // 可选的
+      name: '事线', // 必需
+      // href: 'https://github.com/xugaoyi' // 可选的
     },
     // social: { // 社交图标，显示于博主信息栏和页脚栏
     //   // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
@@ -84,7 +82,6 @@ module.exports = {
       createYear: 2023, // 博客创建年份
       copyrightInfo: '事线 | 串事成线', // 博客版权信息，支持a标签
     },
-    htmlModules,
   },
 
   // 插件
@@ -114,12 +111,6 @@ module.exports = {
     //   ]
     // }],
 
-    [
-      'vuepress-plugin-baidu-tongji', // 百度统计
-      {
-        hm: baiduCode || '01293bffa6c3962016c08ba685c79d78'
-      }
-    ],
 
     ['one-click-copy', { // 代码块复制按钮
       copySelector: ['div[class*="language-"] pre', 'div[class*="aside-code"] aside'], // String or Array
