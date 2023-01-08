@@ -4,7 +4,7 @@ heroImage: /img/logo.png
 heroText: 「事线」- 串事成线
 tagline: 一个多项目时间线记录工具
 actionText: 查看案例 →
-actionLink: /pages/a2f161/
+actionLink: /wall/a84e86/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
