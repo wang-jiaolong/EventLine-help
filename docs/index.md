@@ -3,7 +3,7 @@ home: true
 heroImage: /img/logo.png
 heroText: 「事线」- 串事成线
 tagline: 一个多项目时间线记录工具
-actionText: 开始使用 →
+actionText: 查看案例 →
 actionLink: /pages/a2f161/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
@@ -18,9 +18,9 @@ features: # 可选的
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: none
 ---
-<p align="center">
+<!-- <p align="center">
   <a class="become-sponsor" href="/pages/1b12ed/">支持这个项目</a>
-</p>
+</p> -->
 
 <style>
 .become-sponsor {
@@ -36,7 +36,7 @@ postList: none
 
 
 
-<table>
+<!-- <table>
   <tbody>
     <tr>
       <td align="center" valign="middle">
@@ -49,7 +49,7 @@ postList: none
       </td>
     </tr>
   </tbody>
-</table>
+</table> -->
 
 
 <!-- AD -->
