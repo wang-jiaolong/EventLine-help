@@ -15,7 +15,7 @@ features: # 可选的
   - title: 时间间隔
     details: 为项目的每个项目显示对应的时间间隔，间隔日期一目了然
   - title: 视图模式
-    details: 为相似的项目建立视图，多条时间线整个为一条。
+    details: 为相似属性项目建立视图，多条时间线合为一条。
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: none
@@ -42,24 +42,17 @@ postList: none
 </style>
 
 
+::: center
+
+### 内测群
+
+<img src="https://cdn.staticaly.com/gh/xugaoyi/blog-gitalk-comment@master/img/0.4pp7r95mdai0.jpeg" class="no-zoom" style="width:200px;margin: 10px;">
+<p>vdoing微信群(添加我微信备注"进群")</p>
+
+:::
 
 
 
-
-<!-- <table>
-  <tbody>
-    <tr>
-      <td align="center" valign="middle">
-        <img src="https://cdn.staticaly.com/gh/xugaoyi/blog-gitalk-comment@master/img/0.4pp7r95mdai0.jpeg" class="no-zoom" style="width:120px;margin: 10px;">
-        <p>vdoing微信群(添加我微信备注"进群")</p>
-      </td>
-      <td align="center" valign="middle">
-        <img :src="$withBase('/img/qrcode/qqq.webp')" alt="群号: 694387113" class="no-zoom" style="width:120px;margin: 10px;">
-        <p>vdoing QQ群: 694387113</p>
-      </td>
-    </tr>
-  </tbody>
-</table> -->
 
 
 <!-- AD -->
