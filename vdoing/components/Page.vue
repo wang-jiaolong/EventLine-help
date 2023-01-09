@@ -107,6 +107,7 @@ export default {
       }
     },
     isArticle() {
+      return false
       return this.$frontmatter.article !== false
     }
   }
