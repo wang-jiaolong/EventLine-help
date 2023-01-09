@@ -46,7 +46,7 @@ postList: none
 
 ### 内测群
 
-<img src="https://cdn.staticaly.com/gh/xugaoyi/blog-gitalk-comment@master/img/0.4pp7r95mdai0.jpeg" class="no-zoom" style="width:200px;margin: 10px;">
+<img src="/img/vx.jpg" class="no-zoom" style="width:200px;margin: 10px;border-radius: 12px;">
 <p>vdoing微信群(添加我微信备注"进群")</p>
 
 :::
@@ -69,6 +69,7 @@ postList: none
     .home-wrapper .hero h1{
         padding-top: 40px !important;
          font-size:1.8rem !important;
+
   }
 .home-wrapper .banner .slide-banner .slide-banner-wrapper .slide-item p{
   padding: 0 3rem !important;

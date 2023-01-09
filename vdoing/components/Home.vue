@@ -383,7 +383,11 @@ export default {
           margin 2rem auto
         
         .action
-          padding 0.5rem 1rem
+          display inline-block
+          padding 1rem 1rem
+          @media (max-width $MQMobile)
+            padding 0rem 1rem
+
 
         .description
           max-width 40rem
