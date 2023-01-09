@@ -91,7 +91,11 @@
         <span class="close-but" @click="showWindowRB = false">×</span>
         <div v-html="windowRB" />
       </div>
-    </div>
+        </div>
+    <div
+
+ 
+  </div>
   </div>
 </template>
 
@@ -171,7 +175,11 @@ export default {
         || this.$themeLocaleConfig.nav
       )
     },
-
+    getImg(){
+      if  (this.themeMode = 'dark'){
+        return '/img/bg-dark.png'
+      }
+    },
     shouldShowSidebar() {
       const { frontmatter } = this.$page
       return (
@@ -379,4 +387,13 @@ export default {
     justify-content flex-end
     &>*
       align-self flex-end
+
+
+.body-bg
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -999999;
+  height: 100vh;
+  width: 100vw;
 </style>

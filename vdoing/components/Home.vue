@@ -407,6 +407,9 @@ export default {
           color #fff
           &:hover
             background-color lighten($accentColor, 10%)
+          @media (max-width $MQMobile)
+            font-size 1.0rem
+            padding 0.8rem 1rem
 
 
       // pc端features

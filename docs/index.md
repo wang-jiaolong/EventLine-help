@@ -25,7 +25,11 @@ postList: none
 </p> -->
 
 
-
+  <!-- <div
+    class="body-bg"
+    :style="`background: url('/img/bg-dark.png') center center / cover no-repeat;`"
+  >
+  </div> -->
 
 
 
@@ -39,6 +43,17 @@ postList: none
   box-sizing: border-box;
   border: 1px solid #11a8cd;
 }
+
+.body-bg{
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -999999;
+  height: 100vh;
+  width: 100vw;
+ 
+}
+
 </style>
 
 
@@ -46,8 +61,8 @@ postList: none
 
 ### 内测群
 
-<img src="/img/vx.jpg" class="no-zoom" style="width:200px;margin: 10px;border-radius: 12px;">
-<p>vdoing微信群(添加我微信备注"进群")</p>
+<img src="/img/vx.jpg" class="no-zoom" style="width:200px;margin: 10px;border-radius: 10px;">
+<p>微信群(如失效请添加vx 'JL-SHSF' 邀请进群)</p>
 
 :::
 
@@ -99,5 +114,8 @@ postList: none
     height: 100%;
     padding-top: 5px;
     display: block;
+  }
+  img{
+    box-shadow: 0 4px 9px rgb(0 0 0 / 45%);
   }
 </style>
