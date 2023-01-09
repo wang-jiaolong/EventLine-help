@@ -124,4 +124,9 @@ postList: none
   img{
     box-shadow: 0 0px 20px rgb(0 0 0 / 20%);
   }
+
+svg{
+  color:white !important;
+}
+
 </style>
