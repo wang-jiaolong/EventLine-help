@@ -42,6 +42,9 @@ export default {
   box-sizing border-box
   font-size 0.85rem
   transition all 0.2s ease
+  @media (max-width $MQMobile)
+    padding 2.5rem 1.5rem 2.5rem
+
   > span
     line-height 1.5rem
   .icons
@@ -58,6 +61,8 @@ export default {
     width auto
     padding-left: ($sidebarWidth + 1.5rem)
     padding-top: 1rem
+
+
 @media (min-width 1520px)
   .have-rightmenu .footer
     padding-right: ($rightMenuWidth + 1.5rem)
