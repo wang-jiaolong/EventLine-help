@@ -121,11 +121,11 @@ postList: none
     padding-top: 5px;
     display: block;
   }
-  img{
+  .home-wrapper .hero img{
     box-shadow: 0 0px 20px rgb(0 0 0 / 20%);
   }
 
-svg{
+ .home-wrapper .hero svg{
   color:white !important;
 }
 
