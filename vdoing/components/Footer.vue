@@ -53,10 +53,11 @@ export default {
     color inherit
     &:hover
       color $accentColor
-@media (min-width ($MQMobile + 1px))
+@media (min-width (719px))
   .sidebar-open .footer
     width auto
     padding-left: ($sidebarWidth + 1.5rem)
+    padding-top: 1rem
 @media (min-width 1520px)
   .have-rightmenu .footer
     padding-right: ($rightMenuWidth + 1.5rem)

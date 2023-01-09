@@ -27,6 +27,7 @@
           <p class="action" v-if="homeData.actionText && homeData.actionLink">
             <NavLink class="action-button" :item="actionLink" />
           </p>
+        
         </header>
 
         <!-- PC端features块 s -->
@@ -95,7 +96,11 @@
               </div>
             </div>
           </div>
-          <div class="docs-wrapper">
+  
+        </div>
+        
+      </div>
+              <div class="docs-wrapper">
             <span
               class="doc"
               v-for="(item, index) in homeData.features.length"
@@ -103,8 +108,6 @@
               :class="{ active: currentPageIndex === index }"
             ></span>
           </div>
-        </div>
-      </div>
       <!-- 移动端features块 e -->
     </div>
     <!-- banner块 e -->
@@ -359,19 +362,21 @@ export default {
         margin-top 3rem
         img
           max-width 100%
-          max-height 240px
+          max-height 200px
           display block
           margin 2rem auto 1.5rem
         h1
           margin 0
           font-size 3.2rem
         .description, .action
-          margin 1.5rem auto
+          margin 2rem auto
+          
         .description
           max-width 40rem
           font-size 1.1rem
           line-height 1.3
           opacity 0.9
+
         .action-button
           display inline-block
           font-size 1.2rem
@@ -428,10 +433,10 @@ export default {
         min-height 1px
         overflow hidden
       .slide-banner-wrapper
-        height 300px
+        //height 300px
         .slide-item
           display inline-block
-          height 300px
+          //height 300px
           width 100%
           text-align center
           a
@@ -500,6 +505,7 @@ export default {
         .hero
           h1
             font-size 2.5rem
+            padding 20px 0
           .description
             font-size 1rem
         .feature
@@ -516,6 +522,12 @@ export default {
       .banner-conent
         .features
           display none !important
+        .description
+            font-size 1.2rem
+            font-weight bolder
+
+
+
 // 419px以下
 @media (max-width $MQMobileNarrow)
   .home-wrapper

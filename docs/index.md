@@ -57,14 +57,26 @@ postList: none
   .home-wrapper .hero img{
         border-radius: 40px;
   }
+
+  @media (max-width:719px){
+  .home-wrapper .hero img{
+        border-radius: 20px;
+        max-height:120px !important;
+  }
+    .home-wrapper .hero h1{
+        padding-top: 40px !important;
+         font-size:1.8rem !important;
+  }
+.home-wrapper .banner .slide-banner .slide-banner-wrapper .slide-item p{
+  padding: 0 3rem !important;
+}
+
+  }
+
   .home-wrapper .hero h1{
         padding-top: 50px;
   }
-  .home-wrapper .hero .description{
-        padding: 30px 0;
-        font-size:1.4rem !important;
-        font-weight:bolder;
-  }
+
   .page-wwads{
     width:100%!important;
     min-height: 0;
