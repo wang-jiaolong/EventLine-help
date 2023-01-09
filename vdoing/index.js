@@ -13,7 +13,6 @@ const CARD_IMG_LIST = 'cardImgList'
 // siteConfig base 配置
 let base = ''
 
-
 // Theme API.
 module.exports = (options, ctx) => {
   const { sourceDir, themeConfig, siteConfig } = ctx
