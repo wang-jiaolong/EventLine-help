@@ -6,7 +6,7 @@ tagline: 一个多项目时间线记录工具
 actionText1: 加入内测
 actionLink1: https://testflight.apple.com/join/grxohdR3/
 actionText2: 查看案例 →
-actionLink2: /wall/a84e86/
+actionLink2: /wall/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
