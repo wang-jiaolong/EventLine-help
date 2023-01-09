@@ -19,9 +19,9 @@ features: # 可选的
   - title: 视图模式
     details: 为相似属性项目建立视图，多条时间线合为一条。
     imgUrl: /img/home/view.png
-  - title: 一键分享
-    details: 选择想要分享的事件，生成时间线图片
-    imgUrl: /img/home/share.png
+  # - title: 一键分享
+  #   details: 选择想要分享的事件，生成时间线图片
+  #   imgUrl: /img/home/share.png
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: none

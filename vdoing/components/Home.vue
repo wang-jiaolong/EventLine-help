@@ -489,9 +489,9 @@ export default {
           height 12px
           border-radius 50%
           background var(--textColor)
-          opacity 0.9
+          opacity 0.3
           &.active
-            opacity 0.5
+            opacity 0.9
   // 分页不在第一页时，隐藏banner栏
   .banner.hide-banner
     display none
