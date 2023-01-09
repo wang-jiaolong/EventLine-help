@@ -64,7 +64,7 @@ postList: none
 
 ### 内测群
 
-<img src="/img/vx.jpg" class="no-zoom" style="width:200px;margin: 10px;border-radius: 10px;">
+<img src="/img/vx.jpg" class="no-zoom" style="width:200px;margin: 10px;border-radius: 10px;margin: 2rem 0">
 <p>微信群(如失效请添加vx 'JL-SHSF' 邀请进群)</p>
 
 :::
