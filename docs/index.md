@@ -116,6 +116,6 @@ postList: none
     display: block;
   }
   img{
-    box-shadow: 0 4px 9px rgb(0 0 0 / 45%);
+    box-shadow: 0 0px 20px rgb(0 0 0 / 20%);
   }
 </style>

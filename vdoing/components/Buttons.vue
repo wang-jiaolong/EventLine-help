@@ -73,11 +73,6 @@ export default {
           name: '深色模式',
           icon: 'icon-yejianmoshi',
           KEY: 'dark'
-        },
-        {
-          name: '阅读模式',
-          icon: 'icon-yuedu',
-          KEY: 'read'
         }
       ],
       _scrollTimer: null,
