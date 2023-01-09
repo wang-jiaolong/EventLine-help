@@ -101,10 +101,7 @@
               </div>
             </div>
           </div>
-  
         </div>
-        
-      </div>
               <div class="docs-wrapper">
             <span
               class="doc"
@@ -113,6 +110,9 @@
               :class="{ active: currentPageIndex === index }"
             ></span>
           </div>
+        </div>
+        
+
       <!-- 移动端features块 e -->
     </div>
     <!-- banner块 e -->
@@ -431,7 +431,7 @@ export default {
           color inherit
           .feature-img
             width 10rem
-            height 10rem
+            box-shadow unset
             animation heart 1.2s ease-in-out 0s infinite alternate
             animation-play-state paused
           h2
@@ -467,7 +467,7 @@ export default {
             color inherit
             .feature-img
               width 10rem
-              height 10rem
+              box-shadow unset
             h2
               font-size 1.1rem
               font-weight 500
@@ -477,7 +477,7 @@ export default {
               opacity 0.8
               padding 0 0.8rem
       .docs-wrapper
-        position absolute
+        position bottm
         bottom 25px
         left 50%
         transform translateX(-50%)
