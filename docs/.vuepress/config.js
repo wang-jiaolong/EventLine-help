@@ -21,7 +21,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
-      { text: '案例', link: '/wall/a84e86/' },
+      { text: '案例', link: '/wall/' },
       { text: 'iOS内测', link: 'https://testflight.apple.com/join/grxohdR3/' },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
