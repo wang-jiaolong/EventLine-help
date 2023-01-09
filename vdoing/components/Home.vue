@@ -449,6 +449,7 @@ export default {
           color $accentColor
     // 移动端滑动图标
     .slide-banner
+      padding-bottom 1rem
       margin-top 2rem
       .banner-wrapper
         position relative
@@ -477,16 +478,15 @@ export default {
               opacity 0.8
               padding 0 0.8rem
       .docs-wrapper
-        position relative
-        bottom 25px
+        position absolute
+        bottom 0px
         left 50%
-      
         transform translateX(-50%)
         .doc
           display inline-block
           margin 0 4px
-          width 8px
-          height 8px
+          width 12px
+          height 12px
           border-radius 50%
           background var(--textColor)
           opacity 0.9
