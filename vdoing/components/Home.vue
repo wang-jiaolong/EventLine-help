@@ -430,7 +430,7 @@ export default {
           // color lighten($bannerTextColor,10%)
           color inherit
           .feature-img
-            width 10rem
+            width 20rem
             box-shadow unset
             animation heart 1.2s ease-in-out 0s infinite alternate
             animation-play-state paused
@@ -466,7 +466,7 @@ export default {
             // color lighten($bannerTextColor,10%)
             color inherit
             .feature-img
-              width 10rem
+              width 20rem
               box-shadow unset
             h2
               font-size 1.1rem
