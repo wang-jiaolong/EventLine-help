@@ -2,7 +2,7 @@
   <div>
     <main class="page">
       <div :class="`theme-vdoing-wrapper ${bgStyle}`">
-        <ArticleInfo v-if="isArticle()" />
+       <!--   <ArticleInfo v-if="isArticle()" /> -->
         <div v-else class="placeholder" />
         <component
           class="theme-vdoing-content"
