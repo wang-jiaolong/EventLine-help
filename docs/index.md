@@ -1,10 +1,12 @@
 ---
 home: true
 heroImage: /img/logo.png
-heroText: 「事线」- 串事成线
+heroText: 「 事线 」- 串事成线
 tagline: 一个多项目时间线记录工具
-actionText: 查看案例 →
-actionLink: /wall/a84e86/
+actionText1: 加入内测
+actionLink1: https://testflight.apple.com/join/grxohdR3/
+actionText2: 查看案例 →
+actionLink2: /wall/a84e86/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
@@ -22,6 +24,12 @@ postList: none
   <a class="become-sponsor" href="/pages/1b12ed/">支持这个项目</a>
 </p> -->
 
+
+
+
+
+
+
 <style>
 .become-sponsor {
   padding: 8px 20px;
@@ -32,6 +40,8 @@ postList: none
   border: 1px solid #11a8cd;
 }
 </style>
+
+
 
 
 
@@ -61,7 +71,7 @@ postList: none
   @media (max-width:719px){
   .home-wrapper .hero img{
         border-radius: 20px;
-        max-height:120px !important;
+        max-height:100px !important;
   }
     .home-wrapper .hero h1{
         padding-top: 40px !important;

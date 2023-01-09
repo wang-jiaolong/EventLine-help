@@ -24,10 +24,15 @@
           <p v-if="homeData.tagline" class="description">
             {{ homeData.tagline }}
           </p>
-          <p class="action" v-if="homeData.actionText && homeData.actionLink">
-            <NavLink class="action-button" :item="actionLink" />
-          </p>
         
+          <div class="action" v-if="homeData.actionText1 && homeData.actionLink1">
+            <NavLink class="action-button" :item="actionLink1" />
+          </div>
+            <div class="action" v-if="homeData.actionText2 && homeData.actionLink2">
+            <NavLink class="action-button" :item="actionLink2" />
+          </div>
+         
+
         </header>
 
         <!-- PC端features块 s -->
@@ -237,10 +242,16 @@ export default {
       }
 
     },
-    actionLink() {
+    actionLink1() {
       return {
-        link: this.homeData.actionLink,
-        text: this.homeData.actionText
+        link: this.homeData.actionLink1,
+        text: this.homeData.actionText1
+      };
+    },
+    actionLink2() {
+      return {
+        link: this.homeData.actionLink2,
+        text: this.homeData.actionText2
       };
     }
   },
@@ -368,9 +379,12 @@ export default {
         h1
           margin 0
           font-size 3.2rem
-        .description, .action
+        .description
           margin 2rem auto
-          
+        
+        .action
+          padding 0.5rem 1rem
+
         .description
           max-width 40rem
           font-size 1.1rem
@@ -389,6 +403,8 @@ export default {
           color #fff
           &:hover
             background-color lighten($accentColor, 10%)
+
+
       // pc端features
       .features
         padding 2rem 0
