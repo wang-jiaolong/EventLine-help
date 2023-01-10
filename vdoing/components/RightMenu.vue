@@ -54,6 +54,8 @@ export default {
     .right-menu-margin
       border-left 1px solid var(--borderColor)
 .right-menu-wrapper
+  @media (max-width $MQMobile)
+    display: none;
   width $rightMenuWidth
   float right
   margin-right -($rightMenuWidth + 55px)
