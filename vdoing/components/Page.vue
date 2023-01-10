@@ -81,7 +81,7 @@ export default {
       return (
         $themeConfig.rightMenuBar !== false &&
         $page.headers &&
-        ($frontmatter && sidebar && sidebar !== false) !== false
+        ($frontmatter) !== false
       )
     },
     pageComponent() {
