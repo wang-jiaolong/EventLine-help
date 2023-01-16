@@ -63,7 +63,7 @@ postList: none
 </style>
 
 
-::: center
+<!-- ::: center
 
 ### 内测群
 
@@ -73,7 +73,7 @@ postList: none
 
 微信群(如失效请添加vx `JL-SHSF` 邀请进群)
 
-:::
+::: -->
 
 
 <!-- AD -->
