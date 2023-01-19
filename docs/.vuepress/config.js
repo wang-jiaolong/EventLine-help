@@ -22,7 +22,7 @@ module.exports = {
     nav: [
       { text: '首页', link: '/' },
       { text: 'About', link: '/about/' },
-      { text: 'iOS内测', link: 'https://testflight.apple.com/join/grxohdR3/' },
+      { text: 'App Store', link: 'https://apps.apple.com/cn/app/%E4%BA%8B%E7%BA%BF-%E4%B8%B2%E4%BA%8B%E6%88%90%E7%BA%BF/id1662454742' },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo

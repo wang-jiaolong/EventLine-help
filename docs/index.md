@@ -3,10 +3,10 @@ home: true
 heroImage: /img/logo.png
 heroText: 「 事线 」- 串事成线
 tagline: 一个多项目时间线记录工具
-actionText1: 加入内测
-actionLink1: https://testflight.apple.com/join/grxohdR3/
-actionText2: 用户分享墙
-actionLink2: /wall/
+actionText1: App Store
+actionLink1: https://apps.apple.com/cn/app/%E4%BA%8B%E7%BA%BF-%E4%B8%B2%E4%BA%8B%E6%88%90%E7%BA%BF/id1662454742
+actionText2: 更多介绍 →
+actionLink2: /about/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
@@ -26,16 +26,9 @@ features: # 可选的
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
 postList: none
 ---
-<!-- <p align="center">
-  <a class="become-sponsor" href="/pages/1b12ed/">支持这个项目</a>
-</p> -->
 
 
-  <!-- <div
-    class="body-bg"
-    :style="`background: url('/img/bg-dark.png') center center / cover no-repeat;`"
-  >
-  </div> -->
+
 
 
 
@@ -63,9 +56,9 @@ postList: none
 </style>
 
 
-<!-- ::: center
+::: center
 
-### 内测群
+### 用户群
 
 <img src="/img/vx.png" class="no-zoom" style="width:15rem;margin: 10px;border-radius: 15px;margin: 2rem 0;box-shadow: 0 0px 20px rgb(0 0 0 / 20%);">
 
@@ -73,7 +66,7 @@ postList: none
 
 微信群(如失效请添加vx `JL-SHSF` 邀请进群)
 
-::: -->
+:::
 
 
 <!-- AD -->
