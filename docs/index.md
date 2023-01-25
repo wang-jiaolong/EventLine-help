@@ -19,6 +19,7 @@ features: # 可选的
   - title: 视图模式
     details: 为相似属性项目建立视图，多条时间线合为一条。
     imgUrl: /img/home/view.png
+
   # - title: 一键分享
   #   details: 选择想要分享的事件，生成时间线图片
   #   imgUrl: /img/home/share.png
