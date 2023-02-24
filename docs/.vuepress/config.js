@@ -80,7 +80,7 @@ module.exports = {
     // },
     footer: { // 页脚信息
       createYear: 2023, // 博客创建年份
-      copyrightInfo: '事线 | 串事成线', // 博客版权信息，支持a标签
+      copyrightInfo: '事线 | EventLine', // 博客版权信息，支持a标签
     },
   },
 
