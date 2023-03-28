@@ -61,7 +61,7 @@ postList: none
 
 ### 用户群
 
-<img src="/img/vx.png" class="no-zoom" style="width:15rem;margin: 10px;border-radius: 15px;margin: 2rem 0;box-shadow: 0 0px 20px rgb(0 0 0 / 20%);">
+<img src="/img/vx.jpg" class="no-zoom" style="width:15rem;margin: 10px;border-radius: 15px;margin: 2rem 0;box-shadow: 0 0px 20px rgb(0 0 0 / 20%);">
 
 <br>
 
