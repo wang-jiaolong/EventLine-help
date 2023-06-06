@@ -113,6 +113,7 @@ h1, h2, h3, h4, h5, h6
         box-shadow 1px 1px 20px rgba(0,0,0,.1)
         transform: translateY(-3px)
       .box-img
+        display: flex;
         overflow hidden
         position relative
         background #eee
@@ -132,6 +133,11 @@ h1, h2, h3, h4, h5, h6
           // color $accentColor
           text-decoration none
       .box-info
+        .name
+              text-overflow: ellipsis;
+              overflow: hidden;
+              word-break: break-all;
+              white-space: nowrap;
         padding: .8rem 1rem
         p
           margin 0
