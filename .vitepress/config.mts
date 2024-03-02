@@ -5,9 +5,6 @@ export default defineConfig({
   title: "事线",
   description: "多项目时间线记录工具",
   cleanUrls: true,
-  rewrites: {
-    '/pages/about': 'about.md',
-  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
