@@ -23,10 +23,10 @@ features:
     link: /pages/faq
   - title: 成就墙
     icon: 🏅
-    details: achievement
+    details: Achievement
     link: /pages/faq
   - title: 使用案例
     icon: 📃
-    details: demo
+    details: Demo
     link: /pages/faq
 ---
