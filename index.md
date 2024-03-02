@@ -27,6 +27,6 @@ features:
     link: /pages/faq
   - title: 使用案例
     icon: 📃
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    details: demo
     link: /pages/faq
 ---
