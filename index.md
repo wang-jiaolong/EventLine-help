@@ -30,3 +30,12 @@ features:
     details: Demo
     link: /pages/faq
 ---
+
+
+
+<style lang="less">
+.image-src {
+  width: 100px;
+  height: 100px;
+}
+</style>
