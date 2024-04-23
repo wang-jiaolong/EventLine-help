@@ -15,7 +15,7 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'About',
+        text: 'Introduction',
         items: [
           { text: 'About', link: '/pages/about' },
           { text: '常见问题', link: '/pages/faq' },
@@ -36,7 +36,6 @@ export default defineConfig({
         ]
       }
     ],
-
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     // ],
