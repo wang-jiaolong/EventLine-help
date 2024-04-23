@@ -25,10 +25,10 @@ features:
     icon: 🏅
     details: Achievement
     link: /pages/faq
-  - title: 使用案例
-    icon: 📃
-    details: Demo
-    link: /pages/faq
+  - title: 路线图
+    icon: 🗺️
+    details: Roadmap
+    link: /pages/roadmap
 ---
 
 

@@ -7,5 +7,9 @@
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
+  },
+  "dependencies": {
+    "@types/node": "^20.12.7",
+    "markdown-it-task-checkbox": "^1.0.6"
   }
 }

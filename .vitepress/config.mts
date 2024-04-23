@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import taskLists from 'markdown-it-task-checkbox'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -23,6 +24,12 @@ export default defineConfig({
         ]
       },
       {
+        text: '开发',
+        items: [
+          { text: 'Roadmap', link: '/pages/roadmap' }
+        ]
+      },
+      {
         text: '共建',
         items: [
           { text: '用户群', link: '/pages/user' }
@@ -42,6 +49,18 @@ export default defineConfig({
     footer: {
       message: '事线 - 多项目时间线记录工具',
       copyright: 'Copyright © 2023-present Eventline'
+    }
+  },
+  markdown: {
+    config: (md) => {
+      md.use(taskLists, {
+        disabled: false,
+        divWrap: false,
+        divClass: 'checkbox',
+        idPrefix: 'cbx_',
+        ulClass: 'task-list',
+        liClass: 'task-list-item',
+      })
     }
   }
 })
