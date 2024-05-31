@@ -7,6 +7,7 @@ const logs = [
         version: "1.7.0",
         active: 1,
         date:"",
+        msg: "通过了毕业答辩，并抽空更新了点功能。准备去毕业旅行啦！",
         items: [
             "新增移动事件",
             "App内实现云/本地容器切换",
@@ -50,6 +51,11 @@ const logs = [
 <div v-else>
 
 ## v{{log.version}} <Badge type="info" :text="log.date" />
+</div>
+
+<div v-if="log.msg">
+
+> {{ log.msg }}
 </div>
 
 <div v-for="item in log.items" class="content-card">
