@@ -29,6 +29,10 @@ features:
     icon: 📃
     details: Demo
     link: /pages/faq
+  - title: 更新日志
+    icon: 📃
+    details: Log
+    link: /pages/log
 ---
 
 
