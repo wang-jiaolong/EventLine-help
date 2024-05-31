@@ -46,7 +46,7 @@ const logs = [
 <div v-for="log in logs" class="content-card">
 <div v-if="log.active">
 
-## v{{log.version}} <Badge type="tip" text="🧑🏻‍💻开发中" /> <Badge type="warning" :text="'预计' + log.date + '上线'" />
+## v{{log.version}} <Badge type="tip" text="🧑🏻‍💻开发中" /> <Badge type="warning" :text="'预计' + log.date + '提审'" />
 </div>
 <div v-else>
 
