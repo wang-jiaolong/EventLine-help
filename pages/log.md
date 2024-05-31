@@ -6,7 +6,7 @@ const logs = [
     {
         version: "1.7.0",
         active: 1,
-        date:"",
+        date:"2024-06-02",
         msg: "通过了毕业答辩，并抽空更新了点功能。准备去毕业旅行啦！",
         items: [
             "新增移动事件",
@@ -46,7 +46,7 @@ const logs = [
 <div v-for="log in logs" class="content-card">
 <div v-if="log.active">
 
-## v{{log.version}} <Badge type="tip" text="🧑🏻‍💻开发中" />
+## v{{log.version}} <Badge type="tip" text="🧑🏻‍💻开发中" /> <Badge type="warning" :text="'预计' + log.date + '上线'" />
 </div>
 <div v-else>
 
