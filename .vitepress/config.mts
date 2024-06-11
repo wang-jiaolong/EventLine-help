@@ -6,6 +6,7 @@ export default defineConfig({
   title: "事线",
   description: "多项目时间线记录工具",
   cleanUrls: true,
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -13,14 +14,14 @@ export default defineConfig({
       { text: 'About', link: '/pages/about' },
       { text: 'App Store', link: 'https://apps.apple.com/cn/app/%E4%BA%8B%E7%BA%BF-%E4%B8%B2%E4%BA%8B%E6%88%90%E7%BA%BF/id1662454742' },
     ],
-
     sidebar: [
       {
         text: 'Introduction',
         items: [
           { text: 'About', link: '/pages/about' },
           { text: '常见问题', link: '/pages/faq' },
-          { text: '成就墙', link: '/pages/achievement' }
+          { text: '成就墙', link: '/pages/achievement' },
+          { text: '更新日志', link: '/pages/log' },
         ]
       },
       {
