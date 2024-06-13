@@ -4,8 +4,14 @@
 
 const logs = [
     {
+        version: "1.7.2",
+        date:"2024-06-12",
+        items: [
+            "iOS18跳转失效"
+        ]
+    },
+    {
         version: "1.7.1",
-        active: 1,
         date:"2024-06-11",
         items: [
             "bug修复"
