@@ -4,20 +4,6 @@
 
 const logs = [
     {
-        version: "1.7.2",
-        date:"2024-06-12",
-        items: [
-            "iOS18跳转失效"
-        ]
-    },
-    {
-        version: "1.7.1",
-        date:"2024-06-11",
-        items: [
-            "bug修复"
-        ]
-    },
-    {
         version: "1.7.0",
         date:"2024-06-10",
         msg: "通过了毕业答辩，并抽空更新了点功能。准备去毕业旅行啦！",
@@ -25,6 +11,22 @@ const logs = [
             "新增移动事件",
             "App内实现云/本地容器切换",
             "自动备份功能正式上线",
+        ],
+        subVersions: [
+            {
+                version: "1.7.1",
+                date:"2024-06-11",
+                items: [
+                    "bug修复"
+                ]
+            },
+            {
+                version: "1.7.2",
+                date:"2024-06-12",
+                items: [
+                    "修复iOS18跳转失效"
+                ]
+            },
         ]
     },
     {
@@ -55,7 +57,7 @@ const logs = [
 </script>
 
 
-<div v-for="log in logs" class="content-card">
+<div v-for="log in logs">
 <div v-if="log.active">
 
 ## v{{log.version}} <Badge type="tip" text="🧑🏻‍💻开发中" /> <Badge type="warning" :text="'预计' + log.date + '提审'" />
@@ -70,10 +72,22 @@ const logs = [
 > {{ log.msg }}
 </div>
 
-<div v-for="item in log.items" class="content-card">
+<div v-for="item in log.items">
 
 <li>{{item}}</li>
 </div>
+
+<div v-for="item in log.subVersions">
+
+::: details v{{ item.version }} <Badge type="info" :text="item.date" />
+<div v-for="item in item.items">
+
+<li>{{item}}</li>
+</div>
+:::
+</div>
+
+
 
 </div>
 
