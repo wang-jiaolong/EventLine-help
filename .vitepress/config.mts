@@ -7,6 +7,19 @@ export default defineConfig({
   description: "多项目时间线记录工具",
   cleanUrls: true,
   lastUpdated: true,
+  transformPageData(pageData) {
+    pageData.frontmatter.head ??= []
+    pageData.frontmatter.head.push([
+      'meta',
+      {
+        name: 'og:image',
+        content:
+        'https://www.eventline.cc/logo.png'
+          // pageData.frontmatter.image === ''
+            // ? 'https://www.jiaolong.xyz/logo.png'
+            // : pageData.frontmatter.image
+      }])
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
