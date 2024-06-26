@@ -33,7 +33,8 @@ export default defineConfig({
       {
         text: '共建',
         items: [
-          { text: '用户群', link: '/pages/user' }
+          { text: '用户群', link: '/pages/user' },
+          { text: 'Mac候车厅', link: '/pages/mac' }
         ]
       },
       {

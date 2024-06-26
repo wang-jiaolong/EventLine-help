@@ -6,5 +6,5 @@ title: Roadmap
 
 ### Q3
 
-- [ ] 重构app
-- [ ] 优化app使用体验
+- 重构app
+- 优化app使用体验

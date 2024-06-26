@@ -2,7 +2,7 @@
 title: 用户群
 ---
 
-# 用户群 （7.2过期）
+## 用户群 （7.2过期）
 
 <img src="/img/vx.jpg" class="no-zoom" style="margin: 10px;border-radius: 15px;margin: 2rem 0;box-shadow: 0 0px 20px rgb(0 0 0 / 20%);">
 
