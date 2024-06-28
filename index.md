@@ -21,10 +21,10 @@ features:
     icon: ❓
     details: FAQ
     link: /pages/faq
-  - title: 成就墙
-    icon: 🏅
-    details: Achievement
-    link: /pages/faq
+  # - title: 成就墙
+  #   icon: 🏅
+  #   details: Achievement
+  #   link: /pages/faq
   # - title: 使用案例
   #   icon: 📃
   #   details: Demo
@@ -33,6 +33,10 @@ features:
     icon: 📃
     details: Log
     link: /pages/log
+  - title: Mac候车厅
+    icon: 💻
+    details: Mac waitlist
+    link: /pages/mac
 ---
 
 
