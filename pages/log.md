@@ -5,7 +5,7 @@
 const logs = [
     {
         version: "1.8.0",
-        date:"2024-06-30",
+        date:"2024-07-8",
         active: 1, 
         items: [
             "全局搜索"
