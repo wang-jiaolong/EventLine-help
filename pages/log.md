@@ -4,6 +4,23 @@
 
 const logs = [
     {
+        version: "1.9.0",
+        date:"2024-08-11",
+        active: 0, 
+        items: [
+            "时间线标题支持输入emoji", "修复若干问题"
+        ],
+        subVersions: [
+            {
+                version: "1.9.1",
+                date:"2024-08-12",
+                items: [
+                    "bug修复"
+                ]
+            }
+        ]
+    },
+    {
         version: "1.8.0",
         date:"2024-07-8",
         active: 1, 
