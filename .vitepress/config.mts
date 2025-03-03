@@ -23,7 +23,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '首页', link: '/' },
+      { text: '首页', link: 'https://www.eventline.cc' },
       { text: 'About', link: '/pages/about' },
       { text: 'App Store', link: 'https://apps.apple.com/cn/app/%E4%BA%8B%E7%BA%BF-%E4%B8%B2%E4%BA%8B%E6%88%90%E7%BA%BF/id1662454742' },
     ],
@@ -46,7 +46,6 @@ export default defineConfig({
       {
         text: '共建',
         items: [
-          { text: '用户群', link: '/pages/user' },
           { text: 'Mac候车厅', link: '/pages/mac' }
         ]
       },

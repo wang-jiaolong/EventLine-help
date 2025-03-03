@@ -1,49 +1,19 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
-layout: home
-hero:
-  name: "事线"
-  text: "多项目时间线记录工具"
-  tagline: Multi-project timeline recording tool
-  image:
-    src: /logo.png
-    alt: VitePress
-  actions:
-    - theme: brand
-      text: App Store下载
-      link: https://apps.apple.com/cn/app/%E4%BA%8B%E7%BA%BF-%E4%B8%B2%E4%BA%8B%E6%88%90%E7%BA%BF/id1662454742
-    - theme: alt
-      text: 用户群
-      link: /pages/user
-
-features:
-  - title: 常见问题
-    icon: ❓
-    details: FAQ
-    link: /pages/faq
-  # - title: 成就墙
-  #   icon: 🏅
-  #   details: Achievement
-  #   link: /pages/faq
-  # - title: 使用案例
-  #   icon: 📃
-  #   details: Demo
-  #   link: /pages/faq
-  - title: 更新日志
-    icon: 📃
-    details: Log
-    link: /pages/log
-  - title: Mac候车厅
-    icon: 💻
-    details: Mac waitlist
-    link: /pages/mac
+title: About
 ---
+# 🥳 Welcome
+<br>
 
+<img src="/img/post.png" class="no-zoom">
 
+::: tip
+系统要求：iOS 15.0+
+:::
 
-<style lang="less">
-.image-src {
-  width: 200px;
-  height: 200px;
-}
-</style>
+事线—串事成线
+
+如果你需要围绕一个主题，以时间线的形式展开记录/追踪，那么欢迎来试试「事线」，串事成线。你可以用它做项目追踪、记录书中故事的发展、创建只有你一个人的圈子。
+
+- 它可以做项目追踪，记录任务进展及项目日志
+- 它可以做事件梳理，整理事件变化和发展顺序
+- 它是你的私人圈子，记下不同时期的所思所想
