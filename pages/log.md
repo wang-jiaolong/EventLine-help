@@ -80,10 +80,15 @@ const logs = [
 </script>
 
 
+## v1.16.0 <Badge type="tip" text="🧑🏻‍💻开发中" />
+
+- 新增点击项目名进入项目功能
+- 修复日历偏好选择失败问题
+
 <div v-for="log in logs">
 <div v-if="log.active">
 
-## v{{log.version}} <Badge type="tip" text="🧑🏻‍💻开发中" /> <Badge type="warning" :text="'预计' + log.date + '提审'" />
+## v{{log.version}} <Badge type="tip" text="🧑🏻‍💻开发中" />
 </div>
 <div v-else>
 
